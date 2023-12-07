@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    // last thing what I do today, in a real project we usuall do requests etc... and use NavigationLink
+    @State var isDashboardTime: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            if isDashboardTime {
+                DashboardView()
+            } else {
+                SplashView()
+            }
         }
-        .padding()
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                self.isDashboardTime = true
+            })
+        }
     }
 }
 

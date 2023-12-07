@@ -14,6 +14,38 @@
 		1101AE802B20F02F00CF7EC4 /* TestStanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AE7F2B20F02F00CF7EC4 /* TestStanTests.swift */; };
 		1101AE8A2B20F02F00CF7EC4 /* TestStanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AE892B20F02F00CF7EC4 /* TestStanUITests.swift */; };
 		1101AE8C2B20F02F00CF7EC4 /* TestStanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AE8B2B20F02F00CF7EC4 /* TestStanUITestsLaunchTests.swift */; };
+		1101AEA02B20F12200CF7EC4 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AE9F2B20F12200CF7EC4 /* Transaction.swift */; };
+		1101AEA22B20F1ED00CF7EC4 /* NewTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEA12B20F1ED00CF7EC4 /* NewTransaction.swift */; };
+		1101AEA52B20F25000CF7EC4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1101AEA42B20F25000CF7EC4 /* Alamofire */; };
+		1101AEA82B20F2A300CF7EC4 /* StanApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEA72B20F2A300CF7EC4 /* StanApi.swift */; };
+		1101AEAA2B20F58E00CF7EC4 /* StanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEA92B20F58E00CF7EC4 /* StanRepository.swift */; };
+		1101AEAC2B20F61000CF7EC4 /* SError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEAB2B20F61000CF7EC4 /* SError.swift */; };
+		1101AEAE2B20F67B00CF7EC4 /* StanRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEAD2B20F67B00CF7EC4 /* StanRoutes.swift */; };
+		1101AEB02B20F74A00CF7EC4 /* StanApiGenerics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEAF2B20F74A00CF7EC4 /* StanApiGenerics.swift */; };
+		1101AEB42B20F89800CF7EC4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEB32B20F89800CF7EC4 /* SplashView.swift */; };
+		1101AEB72B20F8E200CF7EC4 /* Color+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEB62B20F8E200CF7EC4 /* Color+extension.swift */; };
+		1101AEB92B20FB9000CF7EC4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEB82B20FB9000CF7EC4 /* DashboardView.swift */; };
+		1101AEBB2B21019100CF7EC4 /* DailyTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEBA2B21019100CF7EC4 /* DailyTransactions.swift */; };
+		1101AEBD2B21021800CF7EC4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1101AEBC2B21021800CF7EC4 /* Utils.swift */; };
+		1168314C2B2139B0006AA0D7 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116831482B2139AF006AA0D7 /* Inter-SemiBold.ttf */; };
+		1168314D2B2139B0006AA0D7 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 116831492B2139AF006AA0D7 /* Inter-Bold.ttf */; };
+		1168314E2B2139B0006AA0D7 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1168314A2B2139AF006AA0D7 /* Inter-Regular.ttf */; };
+		1168314F2B2139B0006AA0D7 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1168314B2B2139B0006AA0D7 /* Inter-Medium.ttf */; };
+		116831512B2139BD006AA0D7 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 116831502B2139BD006AA0D7 /* Fonts */; };
+		116831532B214A5C006AA0D7 /* TransactionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116831522B214A5C006AA0D7 /* TransactionUtils.swift */; };
+		116831552B214D99006AA0D7 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116831542B214D99006AA0D7 /* DateUtils.swift */; };
+		116831582B2155C4006AA0D7 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116831572B2155C4006AA0D7 /* FloatingButton.swift */; };
+		1168315C2B215686006AA0D7 /* NewTransactionAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168315B2B215686006AA0D7 /* NewTransactionAlertDialog.swift */; };
+		1168315E2B215779006AA0D7 /* AppDefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168315D2B215779006AA0D7 /* AppDefaultButton.swift */; };
+		116831602B215CFC006AA0D7 /* View+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1168315F2B215CFC006AA0D7 /* View+extension.swift */; };
+		11F5807C2B2110350038554B /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 11F5807B2B2110350038554B /* CombineMoya */; };
+		11F5807E2B2110350038554B /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 11F5807D2B2110350038554B /* Moya */; };
+		11F580802B2110350038554B /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 11F5807F2B2110350038554B /* ReactiveMoya */; };
+		11F580822B2110350038554B /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 11F580812B2110350038554B /* RxMoya */; };
+		11F580862B21120E0038554B /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F580852B21120E0038554B /* DashboardViewModel.swift */; };
+		11F580892B2113060038554B /* SLogger in Frameworks */ = {isa = PBXBuildFile; productRef = 11F580882B2113060038554B /* SLogger */; };
+		11F5808C2B2113230038554B /* ShimmeringUiView in Frameworks */ = {isa = PBXBuildFile; productRef = 11F5808B2B2113230038554B /* ShimmeringUiView */; };
+		11F580A42B2130560038554B /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F580A32B2130560038554B /* FontUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +76,32 @@
 		1101AE852B20F02F00CF7EC4 /* TestStanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestStanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1101AE892B20F02F00CF7EC4 /* TestStanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStanUITests.swift; sourceTree = "<group>"; };
 		1101AE8B2B20F02F00CF7EC4 /* TestStanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestStanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1101AE9F2B20F12200CF7EC4 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		1101AEA12B20F1ED00CF7EC4 /* NewTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransaction.swift; sourceTree = "<group>"; };
+		1101AEA72B20F2A300CF7EC4 /* StanApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanApi.swift; sourceTree = "<group>"; };
+		1101AEA92B20F58E00CF7EC4 /* StanRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanRepository.swift; sourceTree = "<group>"; };
+		1101AEAB2B20F61000CF7EC4 /* SError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SError.swift; sourceTree = "<group>"; };
+		1101AEAD2B20F67B00CF7EC4 /* StanRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanRoutes.swift; sourceTree = "<group>"; };
+		1101AEAF2B20F74A00CF7EC4 /* StanApiGenerics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanApiGenerics.swift; sourceTree = "<group>"; };
+		1101AEB32B20F89800CF7EC4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		1101AEB62B20F8E200CF7EC4 /* Color+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+extension.swift"; sourceTree = "<group>"; };
+		1101AEB82B20FB9000CF7EC4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1101AEBA2B21019100CF7EC4 /* DailyTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTransactions.swift; sourceTree = "<group>"; };
+		1101AEBC2B21021800CF7EC4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		116831482B2139AF006AA0D7 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		116831492B2139AF006AA0D7 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		1168314A2B2139AF006AA0D7 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		1168314B2B2139B0006AA0D7 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		116831502B2139BD006AA0D7 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; sourceTree = "<group>"; };
+		116831522B214A5C006AA0D7 /* TransactionUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionUtils.swift; sourceTree = "<group>"; };
+		116831542B214D99006AA0D7 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		116831572B2155C4006AA0D7 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		1168315B2B215686006AA0D7 /* NewTransactionAlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTransactionAlertDialog.swift; sourceTree = "<group>"; };
+		1168315D2B215779006AA0D7 /* AppDefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaultButton.swift; sourceTree = "<group>"; };
+		1168315F2B215CFC006AA0D7 /* View+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+extension.swift"; sourceTree = "<group>"; };
+		11F580852B21120E0038554B /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		11F580A22B212F850038554B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		11F580A32B2130560038554B /* FontUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +109,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F580892B2113060038554B /* SLogger in Frameworks */,
+				11F5808C2B2113230038554B /* ShimmeringUiView in Frameworks */,
+				11F580822B2110350038554B /* RxMoya in Frameworks */,
+				11F5807C2B2110350038554B /* CombineMoya in Frameworks */,
+				11F580802B2110350038554B /* ReactiveMoya in Frameworks */,
+				1101AEA52B20F25000CF7EC4 /* Alamofire in Frameworks */,
+				11F5807E2B2110350038554B /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +143,7 @@
 				1101AE7E2B20F02F00CF7EC4 /* TestStanTests */,
 				1101AE882B20F02F00CF7EC4 /* TestStanUITests */,
 				1101AE6C2B20F02C00CF7EC4 /* Products */,
+				11F5807A2B2110350038554B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +160,15 @@
 		1101AE6D2B20F02C00CF7EC4 /* TestStan */ = {
 			isa = PBXGroup;
 			children = (
+				116831452B21397E006AA0D7 /* Fonts */,
+				11F580A22B212F850038554B /* Info.plist */,
+				11F580832B2111F40038554B /* viewmodels */,
+				1101AEB52B20F8CE00CF7EC4 /* extensions */,
+				1101AE9C2B20F0D700CF7EC4 /* models */,
+				1101AE9B2B20F0AD00CF7EC4 /* utils */,
+				1101AE9A2B20F0A300CF7EC4 /* views */,
+				1101AE992B20F07500CF7EC4 /* repository */,
+				1101AE982B20F06800CF7EC4 /* network */,
 				1101AE6E2B20F02C00CF7EC4 /* TestStanApp.swift */,
 				1101AE702B20F02C00CF7EC4 /* ContentView.swift */,
 				1101AE722B20F02E00CF7EC4 /* Assets.xcassets */,
@@ -127,6 +202,158 @@
 			path = TestStanUITests;
 			sourceTree = "<group>";
 		};
+		1101AE982B20F06800CF7EC4 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEA72B20F2A300CF7EC4 /* StanApi.swift */,
+				1101AEAD2B20F67B00CF7EC4 /* StanRoutes.swift */,
+				1101AEAF2B20F74A00CF7EC4 /* StanApiGenerics.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		1101AE992B20F07500CF7EC4 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEA92B20F58E00CF7EC4 /* StanRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		1101AE9A2B20F0A300CF7EC4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				116831562B2155B4006AA0D7 /* custom_views */,
+				1101AEB22B20F88000CF7EC4 /* dashboard */,
+				1101AEB12B20F85300CF7EC4 /* splash */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1101AE9B2B20F0AD00CF7EC4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEBC2B21021800CF7EC4 /* Utils.swift */,
+				11F580A32B2130560038554B /* FontUtils.swift */,
+				116831522B214A5C006AA0D7 /* TransactionUtils.swift */,
+				116831542B214D99006AA0D7 /* DateUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		1101AE9C2B20F0D700CF7EC4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEBA2B21019100CF7EC4 /* DailyTransactions.swift */,
+				1101AE9E2B20F0FE00CF7EC4 /* requests */,
+				1101AE9D2B20F0F800CF7EC4 /* responses */,
+				1101AEAB2B20F61000CF7EC4 /* SError.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1101AE9D2B20F0F800CF7EC4 /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				1101AE9F2B20F12200CF7EC4 /* Transaction.swift */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
+		1101AE9E2B20F0FE00CF7EC4 /* requests */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEA12B20F1ED00CF7EC4 /* NewTransaction.swift */,
+			);
+			path = requests;
+			sourceTree = "<group>";
+		};
+		1101AEB12B20F85300CF7EC4 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEB32B20F89800CF7EC4 /* SplashView.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		1101AEB22B20F88000CF7EC4 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEB82B20FB9000CF7EC4 /* DashboardView.swift */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
+		1101AEB52B20F8CE00CF7EC4 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1101AEB62B20F8E200CF7EC4 /* Color+extension.swift */,
+				1168315F2B215CFC006AA0D7 /* View+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		116831452B21397E006AA0D7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				116831492B2139AF006AA0D7 /* Inter-Bold.ttf */,
+				1168314B2B2139B0006AA0D7 /* Inter-Medium.ttf */,
+				1168314A2B2139AF006AA0D7 /* Inter-Regular.ttf */,
+				116831482B2139AF006AA0D7 /* Inter-SemiBold.ttf */,
+				116831502B2139BD006AA0D7 /* Fonts */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		116831562B2155B4006AA0D7 /* custom_views */ = {
+			isa = PBXGroup;
+			children = (
+				1168315A2B21566D006AA0D7 /* alert_dialogs */,
+				116831592B215665006AA0D7 /* buttons */,
+			);
+			path = custom_views;
+			sourceTree = "<group>";
+		};
+		116831592B215665006AA0D7 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				116831572B2155C4006AA0D7 /* FloatingButton.swift */,
+				1168315D2B215779006AA0D7 /* AppDefaultButton.swift */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		1168315A2B21566D006AA0D7 /* alert_dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				1168315B2B215686006AA0D7 /* NewTransactionAlertDialog.swift */,
+			);
+			path = alert_dialogs;
+			sourceTree = "<group>";
+		};
+		11F5807A2B2110350038554B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11F580832B2111F40038554B /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				11F580842B2112000038554B /* dashboard */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		11F580842B2112000038554B /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				11F580852B21120E0038554B /* DashboardViewModel.swift */,
+			);
+			path = dashboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +370,15 @@
 			dependencies = (
 			);
 			name = TestStan;
+			packageProductDependencies = (
+				1101AEA42B20F25000CF7EC4 /* Alamofire */,
+				11F5807B2B2110350038554B /* CombineMoya */,
+				11F5807D2B2110350038554B /* Moya */,
+				11F5807F2B2110350038554B /* ReactiveMoya */,
+				11F580812B2110350038554B /* RxMoya */,
+				11F580882B2113060038554B /* SLogger */,
+				11F5808B2B2113230038554B /* ShimmeringUiView */,
+			);
 			productName = TestStan;
 			productReference = 1101AE6B2B20F02C00CF7EC4 /* TestStan.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +451,12 @@
 				Base,
 			);
 			mainGroup = 1101AE622B20F02B00CF7EC4;
+			packageReferences = (
+				1101AEA32B20F25000CF7EC4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1101AEA62B20F27800CF7EC4 /* XCRemoteSwiftPackageReference "Moya" */,
+				11F580872B2113060038554B /* XCRemoteSwiftPackageReference "SLogger" */,
+				11F5808A2B2113230038554B /* XCRemoteSwiftPackageReference "swiftui-shimmeringview" */,
+			);
 			productRefGroup = 1101AE6C2B20F02C00CF7EC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +473,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1168314C2B2139B0006AA0D7 /* Inter-SemiBold.ttf in Resources */,
+				1168314E2B2139B0006AA0D7 /* Inter-Regular.ttf in Resources */,
+				1168314F2B2139B0006AA0D7 /* Inter-Medium.ttf in Resources */,
 				1101AE762B20F02E00CF7EC4 /* Preview Assets.xcassets in Resources */,
+				1168314D2B2139B0006AA0D7 /* Inter-Bold.ttf in Resources */,
+				116831512B2139BD006AA0D7 /* Fonts in Resources */,
 				1101AE732B20F02E00CF7EC4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +505,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				1101AE712B20F02C00CF7EC4 /* ContentView.swift in Sources */,
+				1101AEB92B20FB9000CF7EC4 /* DashboardView.swift in Sources */,
+				11F580A42B2130560038554B /* FontUtils.swift in Sources */,
+				1101AEAC2B20F61000CF7EC4 /* SError.swift in Sources */,
+				116831582B2155C4006AA0D7 /* FloatingButton.swift in Sources */,
+				1101AEBD2B21021800CF7EC4 /* Utils.swift in Sources */,
+				1101AEAA2B20F58E00CF7EC4 /* StanRepository.swift in Sources */,
+				1101AEB02B20F74A00CF7EC4 /* StanApiGenerics.swift in Sources */,
+				1168315E2B215779006AA0D7 /* AppDefaultButton.swift in Sources */,
+				11F580862B21120E0038554B /* DashboardViewModel.swift in Sources */,
+				1101AEAE2B20F67B00CF7EC4 /* StanRoutes.swift in Sources */,
+				1168315C2B215686006AA0D7 /* NewTransactionAlertDialog.swift in Sources */,
+				1101AEB72B20F8E200CF7EC4 /* Color+extension.swift in Sources */,
 				1101AE6F2B20F02C00CF7EC4 /* TestStanApp.swift in Sources */,
+				1101AEA02B20F12200CF7EC4 /* Transaction.swift in Sources */,
+				1101AEB42B20F89800CF7EC4 /* SplashView.swift in Sources */,
+				116831552B214D99006AA0D7 /* DateUtils.swift in Sources */,
+				1101AEA82B20F2A300CF7EC4 /* StanApi.swift in Sources */,
+				116831602B215CFC006AA0D7 /* View+extension.swift in Sources */,
+				1101AEBB2B21019100CF7EC4 /* DailyTransactions.swift in Sources */,
+				1101AEA22B20F1ED00CF7EC4 /* NewTransaction.swift in Sources */,
+				116831532B214A5C006AA0D7 /* TransactionUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +692,7 @@
 				DEVELOPMENT_TEAM = 8H3L55K75Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestStan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +722,7 @@
 				DEVELOPMENT_TEAM = 8H3L55K75Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestStan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -588,6 +857,79 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1101AEA32B20F25000CF7EC4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		1101AEA62B20F27800CF7EC4 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		11F580872B2113060038554B /* XCRemoteSwiftPackageReference "SLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ninise/SLogger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		11F5808A2B2113230038554B /* XCRemoteSwiftPackageReference "swiftui-shimmeringview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ninise/swiftui-shimmeringview.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1101AEA42B20F25000CF7EC4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1101AEA32B20F25000CF7EC4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		11F5807B2B2110350038554B /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1101AEA62B20F27800CF7EC4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		11F5807D2B2110350038554B /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1101AEA62B20F27800CF7EC4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		11F5807F2B2110350038554B /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1101AEA62B20F27800CF7EC4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		11F580812B2110350038554B /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1101AEA62B20F27800CF7EC4 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		11F580882B2113060038554B /* SLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11F580872B2113060038554B /* XCRemoteSwiftPackageReference "SLogger" */;
+			productName = SLogger;
+		};
+		11F5808B2B2113230038554B /* ShimmeringUiView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11F5808A2B2113230038554B /* XCRemoteSwiftPackageReference "swiftui-shimmeringview" */;
+			productName = ShimmeringUiView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1101AE632B20F02B00CF7EC4 /* Project object */;
 }
